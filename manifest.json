@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "TFS fields are too damn short",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["http://tfs.corp.volusion.com:8080/tfs*"],
+            "css": ["tfs-css.css"]
+        }
+    ]
+}
