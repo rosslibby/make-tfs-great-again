@@ -25,7 +25,8 @@
 
 .header-post11 #header-row .header-item.logo,
 .header-post11 #header-row .logo+.slash,
-.top-level-menu-v2.menu-bar {
+.top-level-menu-v2.menu-bar,
+.header-post11 #header-row .vertical-bar {
     margin-top: 6px !important;
 }
 
